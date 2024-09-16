@@ -1,0 +1,30 @@
+# Node modules: éviter de copier les dépendances locales
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Variables d'environnement locales
+.env
+
+# Fichiers Git
+.git/
+.gitignore
+
+# Fichiers système spécifiques
+.DS_Store
+Thumbs.db
+
+# Répertoires de build locaux (React, Next.js)
+.next/
+out/
+build/
+dist/
+
+# Répertoires de cache
+.cache/
+coverage/
+
+# Fichiers spécifiques à Docker
+docker-compose.override.yml

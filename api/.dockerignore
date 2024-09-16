@@ -1,0 +1,27 @@
+# Node modules: éviter de copier les dépendances locales
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Variables d'environnement locales
+.env
+
+# Fichiers Git
+.git/
+.gitignore
+
+# Fichiers système spécifiques
+.DS_Store
+Thumbs.db
+
+# Répertoires de build locaux
+dist/
+build/
+
+# Fichiers Docker spécifiques (override pour config locale)
+docker-compose.override.yml
+
+# Ignorer les bases de données locales (SQLite par exemple)
+*.db

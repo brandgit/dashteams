@@ -1,0 +1,31 @@
+# Node modules: éviter de copier les dépendances locales dans Docker
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Variables d'environnement locales
+.env
+
+# Fichiers Git
+.git/
+.gitignore
+
+# Fichiers système spécifiques (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Répertoires de build locaux
+dist/
+build/
+
+# Docker-specific files
+docker-compose.override.yml
+
+# Ignorer les sous-répertoires node_modules des enfants
+api/node_modules/
+client/node_modules/
+
+# Ignorer les bases de données locales
+api/*.db
