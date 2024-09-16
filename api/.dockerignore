@@ -1,5 +1,5 @@
 # Node modules: éviter de copier les dépendances locales
-node_modules/
+# node_modules/
 
 # Logs
 logs/
