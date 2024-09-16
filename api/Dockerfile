@@ -1,5 +1,5 @@
 # Utiliser Node.js 20 avec Debian Bullseye
-FROM node:18-alpine
+FROM node:18-bullseye
 
 # Installer les outils nécessaires pour compiler sqlite3 et utiliser git sparse-checkout
 RUN apt-get update && apt-get install -y git python3 make g++ sqlite3 python3-pip && \
